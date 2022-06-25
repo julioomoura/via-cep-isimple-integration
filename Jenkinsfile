@@ -4,7 +4,8 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                mvn -Dmaven.test.skip=true clean package
+                echo 'Building'
+                mvn clean package -Dmaven.test.skip=true
             }
         }
         stage('Test') {
