@@ -5,12 +5,12 @@ O que será documentado será incremental e o passo-a-passo que eu segui estará
 
 ## Objetivos
 
-[x] Instalar o Jenkins localmente
-[x] Pipeline básica
-[x] Build e teste da aplicação
-[x] Build da imagem docker
-[ ] Publicar a imagem docker no dockerhub
-[ ] Fazer o deploy em alguma nuvem
+- [x] Instalar o Jenkins localmente
+- [x] Pipeline básica
+- [x] Build e teste da aplicação
+- [x] Build da imagem docker
+- [ ] Publicar a imagem docker no dockerhub
+- [ ] Fazer o deploy em alguma nuvem
 
 ## Instalação do Jenkins
 
