@@ -21,7 +21,7 @@ Usei a imagem docker disponível no docker hub: https://hub.docker.com/r/jenkins
 ## Usando o Jenkins
 
 - Fiz um curso básico da alura: https://www.alura.com.br/curso-online-jenkins-integracao-continua
-  O curso é BEM introdutório mesmo... ele nem chega a mostrar a definição de um dockerfile. Juntamente do curso eu criei uma pipeline manualmente bem básica, que fica buscando atualizações na branch main do repositório git. Sempre que há commits novos. Se houver, a pipeline builda e testa o código atualizado.
+  O curso é BEM introdutório mesmo... ele nem chega a mostrar a definição de um Jenkinsfile. Juntamente do curso eu criei uma pipeline manualmente bem básica, que fica buscando atualizações na branch main do repositório git sempre que há commits novos. Se houver, a pipeline builda e testa o código atualizado.
 
 - Como eu já sabia da existência do arquivo de configuração de pipeline Jenkinsfile, procurei como criar uma pipeline usando ele. Para isso eu criei um item de pipeline multibranch.
 
